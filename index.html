@@ -10,29 +10,42 @@
 </head>
 
 <body>
-  <!-- <button id="to-top" title="Go to top">
-    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-      <path fill-rule="evenodd"
-        d="M14.707 12.707a1 1 0 01-1.414 0L10 9.414l-3.293 3.293a1 1 0 01-1.414-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 010 1.414z"
-        clip-rule="evenodd" />
-    </svg>
-  </button> -->
 
   <header>
     <div class="container container-nav">
-      <h1>Coffe Lovers</h1>
-      <nav>
+      <nav class="full">
+        <h1>Coffe Lovers</h1>
+        <ul class="hamburger hidden">
+          <li>
+            <a href="javascript:void(0);" class="toggle">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h8m-8 6h16" />
+              </svg>
+            </a>
+          </li>
+        </ul>
+        <ul class="menu">
+          <li><a href="#jawa">Jawa</a></li>
+          <li><a href="#toraja">Toraja</a></li>
+          <li><a href="#lintong">Lintong</a></li>
+          <li><a href="#gayo">Gayo</a></li>
+          <li><a href="#wamena">Wamena</a></li>
+        </ul>
+      </nav>
+      <nav class="mobile-menu hidden">
         <ul>
           <li><a href="#jawa">Jawa</a></li>
           <li><a href="#toraja">Toraja</a></li>
           <li><a href="#lintong">Lintong</a></li>
           <li><a href="#gayo">Gayo</a></li>
           <li><a href="#wamena">Wamena</a></li>
+        </ul>
       </nav>
     </div>
   </header>
 
-  <!-- <main>
+  <main>
     <div id="content">
       <article id="jawa" class="card">
         <h2>Kopi Jawa</h2>
@@ -102,12 +115,38 @@
     </div>
     <aside class="card" id="profile">
       <img src="./assets/img/ane.jpg" alt="Faiz" class="photo-profile" />
+      <h3>Faiz Hidayatulloh</h3>
+      <h4>FrontEnd Developer</h4>
+      <table>
+        <tr>
+          <td>Birthday</td>
+          <td>:</td>
+          <td>11 May 1999</td>
+        </tr>
+        <tr>
+          <td>Address</td>
+          <td>:</td>
+          <td>Jepara, Central Java</td>
+        </tr>
+        <tr>
+          <td>Email</td>
+          <td>:</td>
+          <td>faizhid11@gmail.com</td>
+        </tr>
+      </table>
     </aside>
   </main>
 
   <footer>
-    <span class="container">Copyright &copy; 2022 | Coffee Lovers</span>
-  </footer> -->
+    <span>Copyright &copy; 2022 | Coffee Lovers</span>
+  </footer>
+  <button id="to-top" title="Go to top">
+    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 20 20" fill="currentColor">
+      <path fill-rule="evenodd"
+        d="M14.707 12.707a1 1 0 01-1.414 0L10 9.414l-3.293 3.293a1 1 0 01-1.414-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 010 1.414z"
+        clip-rule="evenodd" />
+    </svg>
+  </button>
   <script src="./assets/js/script.js"></script>
 </body>
 
